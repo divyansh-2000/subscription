@@ -67,7 +67,7 @@
                         $insert = mysqli_query($connection, $insertUser) or die(mysqli_error($connection));
                         if($insert){
                             $mail = new PHPMailer();
-                            // $mail->isSMTP();
+                            $mail->isSMTP();
                             $mail->Host = "smtp.gmail.com";
                             $mail->SMTPAuth = true;
                             $mail->SMTPSecure = "tls";
