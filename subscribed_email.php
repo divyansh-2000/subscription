@@ -62,7 +62,7 @@ function mailer(){
                             <body>
                             <p>This email contains HTML Tags</p>
                             <img src = '$img' width='50px' height='50px'></img>
-                            <p>Unsubscribe by cliking the link <a href='http://localhost/assignment/unsubscribe.php?vkey=$vkey'>Unsubscribe</a></p>
+                            <p>Unsubscribe by cliking the link <a href='https://rt-camp1.herokuapp.com/unsubscribe.php?vkey=$vkey'>Unsubscribe</a></p>
                             </body>
                             </html>";
             $mail->AltBody = "Change your system";

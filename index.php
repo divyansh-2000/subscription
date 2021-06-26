@@ -88,7 +88,7 @@
                                         <body>
                                         <p>This email contains HTML Tags</p>
                                         <p>
-                                        Please verify your account by clicking below <br> <a href='http://localhost/assignment/verify.php?vkey=$vkey'>Verify Account</a>
+                                        Please verify your account by clicking below <br> <a href='https://rt-camp1.herokuapp.com/verify.php?vkey=$vkey'>Verify Account</a>
                                         </p>
                                         </body>
                                         </html>";
